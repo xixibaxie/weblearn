@@ -1,0 +1,108 @@
+/* 公共样式表css */
+html, body {
+    font-family: "Myriad Set Pro", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+   
+}
+
+/* 导航栏的css修饰*/
+ .bar {
+     height: auto;
+     width: 100%;
+     /* margin-left: 0; */
+    background: #0593d3;
+    position: relative;
+    /* top:0;
+    margin-bottom: 5px; */
+    font-size: 20px;
+ }
+ 
+.bar ul {
+    list-style-type: none;
+   	margin: 0;
+    padding: 0;
+   	overflow: hidden;
+    background-color: #0593d3;
+		}
+
+.bar li {
+    float: left;
+	}
+	
+.bar li a {
+   	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+		}
+
+.bar li a:hover {
+    background-color:#0482ba;
+	}
+
+
+.logo{
+        color:white;
+        /* height: 49px; */
+        float: left;
+        padding: 6px;
+        margin-left: 15px;
+        font-size: 30px;
+        /* position: fixed; */
+    }
+    .login{
+
+        color:white;
+        /* height: 49px; */
+        float: right;
+        /* padding: 10px; */
+        margin-right: 10px;
+        /* padding-top: 0px;
+        font-size: 30px;
+        position: absolute; */
+    }
+
+/* 主体修饰区 */
+
+.zhu{
+margin-top: 20px;
+/* text-align: center; */
+}
+.zhu span{
+    font-size: 50px ;
+}
+
+/* 图片位置 */
+#bigImg{
+    width: 500px;
+    height: 300px;
+    /* margin: 0 auto; */
+    border:  black solid 1px;
+    float: left;
+    position: absolute;
+    text-align: center;
+}
+#celan{
+    width: 900px;
+    height: 300px;
+    /* margin: 0 auto; */
+    /* border:  black solid 1px; */
+    float: right;
+    margin-top:65px;
+    margin-right: 100px;
+    position:relative;
+}
+#celan a{
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#celan span{
+    font-size: 10px ;
+
+}
+/* #celan a:hover{
+    background-color:#0482ba;
+} */
