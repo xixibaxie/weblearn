@@ -1,3 +1,9 @@
+/* 公共样式表css */
+html, body {
+    font-family: "Myriad Set Pro", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+   
+}
+
 /* 导航栏的css修饰*/
  .bar {
      height: auto;
@@ -60,9 +66,39 @@
 
 .zhu{
 margin-top: 20px;
-font-family:SimSun;
-
+/* text-align: center; */
 }
 .zhu span{
-    font-size: 30px ;
+    font-size: 50px ;
 }
+
+/* 图片位置 */
+#bigImg{
+    width: 500px;
+    height: 300px;
+    /* margin: 0 auto; */
+    border:  black solid 1px;
+    float: left;
+    position: absolute;
+    text-align: center;
+}
+#celan{
+    width: 900px;
+    height: 300px;
+    /* margin: 0 auto; */
+    /* border:  black solid 1px; */
+    float: right;
+    margin-top:65px;
+    margin-right: 100px;
+    position:relative;
+}
+#celan a{
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* #celan a:hover{
+    background-color:#0482ba;
+} */
